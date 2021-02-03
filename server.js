@@ -6,7 +6,7 @@ const shortId = require("shortId");
 const app = express();
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://kaio:KaioIreland17@cluster0.5xqr3.mongodb.net/react-shopping-cart-db?retryWrites=true&w=majority", {
+mongoose.connect(`mongodb+srv://kaio:${process.env.REACT_APP_PASSWORD_MONGODB}@cluster0.5xqr3.mongodb.net/react-shopping-cart-db?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

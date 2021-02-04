@@ -32,6 +32,7 @@ Technologies that I used to develop this web client
 - [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/2)
+- [Mongoose](https://mongoosejs.com/)
 - [React Router DOM](https://reacttraining.com/react-router/)
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
